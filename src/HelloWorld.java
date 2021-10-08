@@ -18,5 +18,22 @@ public class HelloWorld {
         System.out.println("Min int val: " + minIntValue);
         System.out.println("Max int val: " + maxIntValue);
 
+
+
+        byte minByteValue = Byte.MIN_VALUE;
+        byte maxByteValue = Byte.MAX_VALUE;
+
+        System.out.println(minByteValue);
+        System.out.println(maxByteValue);
+
+        //        cast a number to long number
+        long myLongValue = 100L;
+
+        long minlongValue = Long.MIN_VALUE;
+        long maxlongValue = Long.MAX_VALUE;
+
+        System.out.println(minlongValue);
+        System.out.println(maxlongValue);
+        
     }
 }
