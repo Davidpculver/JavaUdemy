@@ -34,6 +34,10 @@ public class HelloWorld {
 
         System.out.println(minlongValue);
         System.out.println(maxlongValue);
+
+        byte newByteValue = (byte) (maxByteValue / 2);
+        System.out.println(newByteValue);
+        System.out.println(maxByteValue);
         
     }
 }
