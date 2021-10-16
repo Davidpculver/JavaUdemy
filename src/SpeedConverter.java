@@ -11,11 +11,11 @@ public class SpeedConverter {
         if(kilometersPerHour < 0){
             System.out.println("Invalid Value");
         } else {
-            System.out.println(kilometersPerHour + " km/h = " + toMilesPerHour(kilometersPerHour) + " mi/h");
+//            System.out.println(kilometersPerHour + " km/h = " + toMilesPerHour(kilometersPerHour) + " mi/h");
+            double milesPerHour = toMilesPerHour(kilometersPerHour);
+            System.out.println(kilometersPerHour + " km/h = " + milesPerHour + " mi/h");
         }
     }
 
-    public static void main(String[] args) {
-        printConversion(125);
-    }
+
 }
