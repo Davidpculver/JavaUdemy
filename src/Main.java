@@ -6,6 +6,9 @@ public class Main {
         System.out.println(miles);
 
         SpeedConverter.printConversion(100);
+
+        MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+
     }
 
 }
