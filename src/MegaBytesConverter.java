@@ -17,4 +17,37 @@ public class MegaBytesConverter {
 //        printMegaBytesAndKiloBytes(5000);
 //    }
 
+    public static boolean shouldWakeUp(boolean barking, int hourOfDay){
+        if(hourOfDay < 0 || hourOfDay > 23){
+            return false;
+        } else if (barking && hourOfDay < 8 || hourOfDay > 22) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+//    public static void main(String[] args) {
+//        System.out.println(shouldWakeUp(false, 1));
+//    }
+
+    public static boolean isLeapYear(int year) {
+        if(year < 1 || year > 9999) {
+            return false;
+        } else if (year % 4 == 0){
+            if(year % 100 == 0){
+                if(year % 400 == 0){
+                    return true;
+                } else {
+                    return false;
+                }
+            } else {
+                return true;
+            }
+        } else {
+            return false;
+        }
+
+    }
+
 }
