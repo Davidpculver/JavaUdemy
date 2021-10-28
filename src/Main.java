@@ -11,7 +11,9 @@ public class Main {
 //
 //        System.out.println(MegaBytesConverter.shouldWakeUp(true, 2));
 
-        System.out.println(MegaBytesConverter.isLeapYear(1600));
+//        System.out.println(MegaBytesConverter.isLeapYear(1600));
+
+        System.out.println(MegaBytesConverter.areEqualByThreeDecimalPlaces(-3.1756, -3.175));
     }
 
 }
